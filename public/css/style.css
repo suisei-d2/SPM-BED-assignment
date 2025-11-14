@@ -231,7 +231,11 @@ p a {
 
 .medication-list {
     width: 100%;
+    max-height: 300px; /* Adjust based on your layout */
+    overflow-y: auto;
+    padding-right: 8px;   /* Optional: space for scrollbar */
     margin-bottom: 40px;
+
 }
 
 .medication-item {
